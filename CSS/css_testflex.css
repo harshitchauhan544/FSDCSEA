@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+div{
+    color: white;
+}
+.container{
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(246, 210, 164);
+}
+.b1{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-around;
+
+}
+.b2{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-around;
+}
+.imglogo img{
+    height: 50px;
+    width:200px
+}
+
+.wbox{
+    background-color: white;
+    flex-basis: 40%;
+}

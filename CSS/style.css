@@ -38,10 +38,12 @@
     background-color: red;
 }
 
+/* for child  */
 
 div> p{
     background-color: aquamarine;
 }
+/* for sibling */
 div + p{
     background-color: antiquewhite;
 }
