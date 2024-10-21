@@ -1,36 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bulb Segment</title>   
+  <link rel="stylesheet" href="bulb_test.css"> 
+  
 </head>
 <body>
-    <table border="1" width="100%">
-        <thead>Hii</thead>
-        <tbody>
-            <tr>
-                <td colspan="2"> Main Header</td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="login.html" target="myframe">Login</a>
-                    <br>
-                    <br>
-                    <a href="reg.html" target="myframe">Register</a>
-                </td>
-                <td>
-                    <iframe name = "myframe" src="/FSDCSEA/Images/img1.jpg" height="600px" width="700px" style="background-color: bisque;"></iframe>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">Footer</td>
-            </tr>
-        </tbody>
-        <tfoot>
+    <div class="c1">
 
-        </tfoot>
+  <h1>Bulb Segment</h1>
+  </div>
 
-    </table>
+  <div class="c2">
+    <label for="numBulbs">Enter number of bulbs:</label>
+    <input type="number" id="numBulbs" min="1" placeholder="Enter number of bulbs">
+    <button onclick="createBulbs()">Start</button>
+  </div>
+
+  <div id="bulbContainer" class="container"></div>
+
+  <script src="bulb_test.js">
+    
+  </script>
+
 </body>
 </html>
