@@ -15,7 +15,7 @@ function createBulbs() {
       checkbox.id = 'check-' + i;
       checkbox.onchange = function() {
         toggleBulb(i);
-      };
+      }; 
 
       
       bulbContainer.appendChild(bulbDiv);
