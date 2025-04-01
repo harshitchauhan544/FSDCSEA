@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const StudentState = () => {
+    const {count,setCount} = useState(100);
   return (
-    <div>StudentState</div>
+    <div>{count}</div>
   )
 }
 
